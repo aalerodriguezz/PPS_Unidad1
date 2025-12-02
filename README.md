@@ -6,11 +6,11 @@ Este repositorio contiene las soluciones a la práctica de Puesta en Producción
 
 
 
-Autor: Alejandro Rodriguez
+**Autor:** Alejandro Rodriguez
 
 
 
-Curso: Especialista en Ciberseguridad
+**Curso:** Especialista en Ciberseguridad
 
 
 
@@ -38,8 +38,7 @@ tests: Pruebas unitarias (unittest y pytest).
 
 
 
-  pip install -r requirements.txt
-
+  - pip install -r requirements.txt
 
 
 
@@ -48,8 +47,7 @@ tests: Pruebas unitarias (unittest y pytest).
 
 
 
-  python src/main.py
-
+ - python src/main.py
 
 
 
@@ -60,11 +58,11 @@ tests: Pruebas unitarias (unittest y pytest).
 
   \# Para unittest
   
-  python -m unittest tests/test\_modulo1.py
+  - python -m unittest tests/test\_modulo1.py
   
   
   
   \# Para pytest
   
-  pytest tests/test\_pytest.py -v
+  - pytest tests/test\_pytest.py -v
 
