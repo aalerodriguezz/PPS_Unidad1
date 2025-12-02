@@ -34,37 +34,37 @@ tests: Pruebas unitarias (unittest y pytest).
 
 
 
-*Instalar dependencias:*
+  *Instalar dependencias:*
 
 
 
-pip install -r requirements.txt
-
-
-
-
-
-*Ejecutar la aplicación principal:*
-
-
-
-python src/main.py
+  pip install -r requirements.txt
 
 
 
 
 
-*Ejecutar los tests:*
+  *Ejecutar la aplicación principal:*
 
 
 
-\# Para unittest
-
-python -m unittest tests/test\_modulo1.py
+  python src/main.py
 
 
 
-\# Para pytest
 
-pytest tests/test\_pytest.py -v
+
+  *Ejecutar los tests:*
+
+
+
+  \# Para unittest
+  
+  python -m unittest tests/test\_modulo1.py
+  
+  
+  
+  \# Para pytest
+  
+  pytest tests/test\_pytest.py -v
 
